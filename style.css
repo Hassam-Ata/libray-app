@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:black;
+    display: flex;
+    justify-content: center;
+
+}
+
+dialog {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+  
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 10px;
+
+}
+
+input {
+
+    margin-bottom: 10px;
+    font-size: large;
+    border: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+label{
+    margin-right: 10px;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+ 
+    align-items: center;
+}
+
+.open{
+    margin-top: 5%;
+    font-size: large;
+}
+
+.card{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    border-radius: 10px;
+
+}
+
+.card:hover{
+    background-color: antiquewhite;
+}
+
